@@ -1,0 +1,23 @@
+meta {
+  name: POST
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/careers/1/like/
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "username": "Alexandre",
+    "title": "Codeleap Test",
+    "content": "Aqui está o primeiro teste na Codeleap"
+  }
+}

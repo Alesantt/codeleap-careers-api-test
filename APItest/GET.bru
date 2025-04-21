@@ -1,0 +1,21 @@
+meta {
+  name: GET
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://dev.codeleap.co.uk/careers/
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "id": "70109",
+    "username": "Alexandre",
+    "created_datetime": "2025-04-20T04:39:48.874863Z",
+    "title": "Codeleap Test",
+    "content": "Aqui está o primeiro teste na Codeleap"
+  }
+}
