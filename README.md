@@ -19,5 +19,6 @@ Este é um projeto de API RESTful feito com Django e Django REST Framework, cria
 - Python
 - Django
 - Django REST Framework
+- SQLite
 
 ---
